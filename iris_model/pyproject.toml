@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "iris_model"
+version = "0.0.1"
+description = "Model to predict types\ of iris from some features on flower dimensions"
+authors = []
+include = ["CHANGELOG.md"]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+isort = "^5.13.2"
+black = "^24.4.2"
+mypy = "^1.10.0"
+pre-commit = "^3.7.0"
+pytest = "^8.1.1"
+pytest-mock = "^3.14.0"
+tox = "^3.26.0"
+mock = "^5.1.0"
+types-mock = "^5.1.0.3"
+awscli = "^1.32.92"
